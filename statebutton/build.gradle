@@ -10,12 +10,14 @@ ext {
 
     libraryDescription = 'Android button suitable for network operations'
 
+    siteUrl = 'https://github.com/andrea-rosa/statebutton-android'
     gitUrl = 'https://github.com/andrea-rosa/statebutton-android.git'
 
     libraryVersion = '1.0.0'
 
     developerId = 'andrea-rosa'
     developerName = 'Andrea Rosa'
+    developerEmail = 'rosa.and89@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -45,3 +47,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
