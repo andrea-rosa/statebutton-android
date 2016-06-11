@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/darker_gray" />
+            <corners android:radius="@dimen/statebutton_md_radius" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/statebutton_md_bottom_shadow"
+        android:left="@dimen/statebutton_md_left_shadow"
+        android:right="@dimen/statebutton_md_right_shadow">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/statebutton_md_radius" />
+            <solid android:color="@color/md_red_50" />
+        </shape>
+    </item>
+
+</layer-list>

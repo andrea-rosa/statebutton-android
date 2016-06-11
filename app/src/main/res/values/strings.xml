@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Example</string>
+    <string name="disable">Disable all!</string>
+    <string name="click">Click all!</string>
+    <string name="disabledText">DISABLED</string>
+    <string name="clickText">CLICK ME!</string>
+    <string name="failedText">FAILED</string>
+    <string name="loadingText">LOADING</string>
+    <string name="successText">SUCCESS</string>
+</resources>

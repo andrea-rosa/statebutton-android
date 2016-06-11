@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateButton">
+
+        <!-- Font -->
+        <attr name="fontFace" format="string" />
+        <attr name="fontSize" format="float" />
+
+        <!-- Button text for the five states -->
+        <attr name="disabledText" format="string" localization="suggested" />
+        <attr name="enabledText" format="string" localization="suggested" />
+        <attr name="loadingText" format="string" localization="suggested" />
+        <attr name="successText" format="string" localization="suggested" />
+        <attr name="failedText" format="string" localization="suggested" />
+
+        <!-- Text color -->
+        <attr name="disabledTextColor" format="integer" />
+        <attr name="enabledTextColor" format="integer" />
+        <attr name="loadingTextColor" format="integer" />
+        <attr name="successTextColor" format="integer" />
+        <attr name="failedTextColor" format="integer" />
+
+        <!-- Button backgrounds -->
+        <attr name="disabledBackground" format="integer" />
+        <attr name="enabledBackground" format="integer" />
+        <attr name="loadingBackground" format="integer" />
+        <attr name="successBackground" format="integer" />
+        <attr name="failedBackground" format="integer" />
+
+        <!-- Button icons -->
+        <attr name="disabledIcon" format="integer" />
+        <attr name="enabledIcon" format="integer" />
+        <attr name="loadingIcon" format="integer" />
+        <attr name="successIcon" format="integer" />
+        <attr name="failedIcon" format="integer" />
+
+        <!-- Icons color -->
+        <attr name="disabledIconColor" format="integer" />
+        <attr name="enabledIconColor" format="integer" />
+        <attr name="loadingIconColor" format="integer" />
+        <attr name="successIconColor" format="integer" />
+        <attr name="failedIconColor" format="integer" />
+
+        <!-- Button icons visibility -->
+        <attr name="disabledIconVisible" format="boolean" />
+        <attr name="enabledIconVisible" format="boolean" />
+        <attr name="loadingIconVisible" format="boolean" />
+        <attr name="successIconVisible" format="boolean" />
+        <attr name="failedIconVisible" format="boolean" />
+
+        <!-- The states of the button -->
+        <attr name="state" format="enum">
+            <enum name="disabled" value="0" />
+            <enum name="enabled" value="1" />
+            <enum name="loading" value="2" />
+            <enum name="success" value="3" />
+            <enum name="failed" value="4" />
+        </attr>
+
+    </declare-styleable>
+</resources>

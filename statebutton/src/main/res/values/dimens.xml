@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="statebutton_md_radius">4dp</dimen>
+    <dimen name="statebutton_margin">16dp</dimen>
+    <dimen name="statebutton_icon_width">24dp</dimen>
+    <dimen name="statebutton_icon_height">24dp</dimen>
+    <dimen name="statebutton_md_bottom_shadow">2dp</dimen>
+    <dimen name="statebutton_md_left_shadow">-1dp</dimen>
+    <dimen name="statebutton_md_right_shadow">1dp</dimen>
+</resources>

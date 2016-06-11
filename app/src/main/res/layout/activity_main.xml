@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
+
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_redStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_blueStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_pinkStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_purpleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_deeppurpleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_indigoStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_lightblueStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_cyanStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_tealStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_greenStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_lightgreenStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_limeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_yellowStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_amberStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_orangeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_deeporangeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_brownStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_greyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+        <org.altervista.andrearosa.statebutton.StateButton
+            style="@style/StateButton_md_bluegreyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            app:disabledText="@string/disabledText"
+            app:enabledText="@string/clickText"
+            app:failedText="@string/failedText"
+            app:loadingText="@string/loadingText"
+            app:state="enabled"
+            app:successText="@string/successText" />
+
+    </LinearLayout>
+</ScrollView>

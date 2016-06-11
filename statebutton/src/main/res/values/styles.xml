@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FIXME: using mixed styles causes graphical glitches!                -->
+    <!--        for now all styles inherit from StateButton_md_baseDarkStyle -->
+
+    <!-- md base dark style -->
+    <style name="StateButton_md_baseDarkStyle">
+        <!-- Texts color -->
+        <item name="disabledTextColor">@color/black_038</item>
+        <item name="enabledTextColor">@color/white_100</item>
+        <item name="loadingTextColor">@color/black_038</item>
+        <item name="successTextColor">@color/white_100</item>
+        <item name="failedTextColor">@color/white_100</item>
+        <!-- Icons color -->
+        <item name="disabledIconColor">@color/black_038</item>
+        <item name="enabledIconColor">@color/white_100</item>
+        <item name="loadingIconColor">@color/black_038</item>
+        <item name="successIconColor">@color/white_100</item>
+        <item name="failedIconColor">@color/white_100</item>
+    </style>
+
+    <!-- md base light style -->
+    <style name="StateButton_md_baseLightStyle">
+        <!-- Texts color -->
+        <item name="disabledTextColor">@color/black_038</item>
+        <item name="enabledTextColor">@color/black_087</item>
+        <item name="loadingTextColor">@color/black_038</item>
+        <item name="successTextColor">@color/black_087</item>
+        <item name="failedTextColor">@color/black_087</item>
+        <!-- Icons color -->
+        <item name="disabledIconColor">@color/black_038</item>
+        <item name="enabledIconColor">@color/black_087</item>
+        <item name="loadingIconColor">@color/black_038</item>
+        <item name="successIconColor">@color/black_087</item>
+        <item name="failedIconColor">@color/black_087</item>
+    </style>
+
+    <!-- red style -->
+    <style name="StateButton_md_redStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_redbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_redbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_redbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_redbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_redbg_failed</item>
+    </style>
+
+    <!-- blue style -->
+    <style name="StateButton_md_blueStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_bluebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_bluebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_bluebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_bluebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_bluebg_failed</item>
+    </style>
+
+    <!-- pink style -->
+    <style name="StateButton_md_pinkStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_pinkbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_pinkbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_pinkbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_pinkbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_pinkbg_failed</item>
+    </style>
+
+    <!-- purple style -->
+    <style name="StateButton_md_purpleStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_purplebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_purplebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_purplebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_purplebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_purplebg_failed</item>
+    </style>
+
+    <!-- deep purple style -->
+    <style name="StateButton_md_deeppurpleStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_deeppurplebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_deeppurplebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_deeppurplebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_deeppurplebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_deeppurplebg_failed</item>
+    </style>
+
+    <!-- indigo style -->
+    <style name="StateButton_md_indigoStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_indigobg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_indigobg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_indigobg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_indigobg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_indigobg_failed</item>
+    </style>
+
+    <!-- light blue style -->
+    <style name="StateButton_md_lightblueStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_lightbluebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_lightbluebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_lightbluebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_lightbluebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_lightbluebg_failed</item>
+    </style>
+
+    <!-- cyan style -->
+    <style name="StateButton_md_cyanStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_cyanbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_cyanbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_cyanbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_cyanbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_cyanbg_failed</item>
+    </style>
+
+    <!-- teal style -->
+    <style name="StateButton_md_tealStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_tealbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_tealbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_tealbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_tealbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_tealbg_failed</item>
+    </style>
+
+    <!-- green style -->
+    <style name="StateButton_md_greenStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_greenbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_greenbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_greenbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_greenbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_greenbg_failed</item>
+    </style>
+
+    <!-- lightgreen style -->
+    <style name="StateButton_md_lightgreenStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_lightgreenbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_lightgreenbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_lightgreenbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_lightgreenbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_lightgreenbg_failed</item>
+    </style>
+
+    <!-- lime style -->
+    <style name="StateButton_md_limeStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_limebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_limebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_limebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_limebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_limebg_failed</item>
+    </style>
+
+    <!-- yellow style -->
+    <style name="StateButton_md_yellowStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_yellowbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_yellowbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_yellowbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_yellowbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_yellowbg_failed</item>
+    </style>
+
+    <!-- amber style -->
+    <style name="StateButton_md_amberStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_amberbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_amberbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_amberbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_amberbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_amberbg_failed</item>
+    </style>
+
+    <!-- orange style -->
+    <style name="StateButton_md_orangeStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_orangebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_orangebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_orangebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_orangebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_orangebg_failed</item>
+    </style>
+
+    <!-- deep orange style -->
+    <style name="StateButton_md_deeporangeStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_deeporangebg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_deeporangebg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_deeporangebg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_deeporangebg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_deeporangebg_failed</item>
+    </style>
+
+    <!-- brown style -->
+    <style name="StateButton_md_brownStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_brownbg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_brownbg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_brownbg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_brownbg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_brownbg_failed</item>
+    </style>
+
+    <!-- grey style -->
+    <style name="StateButton_md_greyStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_greybg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_greybg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_greybg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_greybg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_greybg_failed</item>
+    </style>
+
+    <!-- blue grey style -->
+    <style name="StateButton_md_bluegreyStyle" parent="StateButton_md_baseDarkStyle">
+        <!-- Backgrounds -->
+        <item name="disabledBackground">@drawable/statebutton_md_bluegreybg_disabled</item>
+        <item name="enabledBackground">@drawable/statebutton_md_bluegreybg_enabled</item>
+        <item name="loadingBackground">@drawable/statebutton_md_bluegreybg_loading</item>
+        <item name="successBackground">@drawable/statebutton_md_bluegreybg_success</item>
+        <item name="failedBackground">@drawable/statebutton_md_bluegreybg_failed</item>
+    </style>
+
+</resources>
