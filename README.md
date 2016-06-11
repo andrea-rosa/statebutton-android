@@ -6,7 +6,7 @@ Add the following lines to your `build.gradle`
 ```gradle
 repositories {
    maven {
-       url 'https://dl.bintray.com/sj/maven/'
+       url 'https://dl.bintray.com/andrea-rosa/maven/'
    }
 }
  
