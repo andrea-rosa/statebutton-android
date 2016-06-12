@@ -18,10 +18,10 @@ dependencies {
 Put in your `layout.xml`:
 ```xml
 <org.altervista.andrearosa.statebutton.StateButton
-            android:id="@+id/mButton"
-            app:state="enabled"
-            ...
-             />
+   android:id="@+id/mButton"
+   app:state="enabled"
+   ...
+   />
 ```
 Then, in your Activity/Fragment:
 ```java
@@ -101,19 +101,19 @@ You can define the following attributes:
  - `failedIconVisible` icon visibility for failed state (*boolean*)
 
 **To much settings?**  
-Don't warry! There are 19 predefined style that you can use.  
+Don't worry! There are 19 predefined styles that you can use.  
 Just add `style` attribute in your xml and the texts for states:
 ```xml
 <org.altervista.andrearosa.statebutton.StateButton
-            style="@style/StateButton_md_redStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:disabledText="Disbled"
-            app:enabledText="Click me!"
-            app:failedText="Failed"
-            app:loadingText="Loading"
-            app:successText="Success"
-            app:state="enabled" />
+   style="@style/StateButton_md_redStyle"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   app:disabledText="Disbled"
+   app:enabledText="Click me!"
+   app:failedText="Failed"
+   app:loadingText="Loading"
+   app:successText="Success"
+   app:state="enabled" />
 ```
 
 Predefined styles are:
