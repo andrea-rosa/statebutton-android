@@ -1,3 +1,5 @@
+## :warning: No longer maintained :warning:  
+---  
 # StateButton
 *Android button suitable for network operations*  
 ![Sample](/img/sample.gif)  
